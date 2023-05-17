@@ -33,7 +33,7 @@ with open(election_file, 'r') as csv_file:
     set_data = set(candidate_data)
     unique_candidate = (list(set_data))
 
-
+#set text file to output
 output_path = os.path.join("Analysis", "Election_data.txt")
 
 with open(output_path, 'w') as txtfile:
@@ -78,8 +78,8 @@ with open(output_path, 'w') as txtfile:
 
 
     print("---------------------------")
-    print(win_person)
+    print(f"Winner: {win_person}")
     print("---------------------------")    
     txtfile.write(f"\n---------------------------\n")
-    txtfile.write(f"\n{win_person}\n")
+    txtfile.write(f"\nWinner: {win_person}\n")
     txtfile.write(f"\n---------------------------\n")      
