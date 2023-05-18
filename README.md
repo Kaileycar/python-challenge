@@ -11,4 +11,6 @@ Ryan also helped me Monday after class to find a way to grab the indexes of the 
 
 https://www.digitalocean.com/community/tutorials/get-unique-values-from-a-list-in-python: This website helped me figure out how to go through a list a pick out unique values. I tried the "list.append()" function at first, but found that the "set()" function worked better for my script. 
 
+https://note.nkmk.me/en/python-collections-counter/#:~:text=Counter%20object%20is%20created%20by,and%20their%20counts%20as%20values.&text=By%20specifying%20an%20element%2C%20you%20can%20get%20its%20count: This website helped me figure out the "count()" function and how to use it in my PyPoll script. 
+
 Along with these websites and help during Office Hours, I was also apart of a study group Sunday night on Zoom. It was with Eva, Aleid, Raina, Hannah, and Pan. 
